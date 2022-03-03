@@ -9,8 +9,17 @@ import UIKit
 
 class FoodCell: UITableViewCell {
 
+    @IBOutlet weak var backGroundView: UIView!
+    @IBOutlet weak var itemsNameLbl: UILabel!
+    @IBOutlet weak var itemsTaxLbl: UILabel!
+    @IBOutlet weak var itemsquantitylbl: UILabel!
+    @IBOutlet weak var itemspriceLbl: UILabel!
+    @IBOutlet weak var itemsFoodImg: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        backGroundView.ViewCorners()
         // Initialization code
     }
 

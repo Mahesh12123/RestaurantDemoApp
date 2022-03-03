@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0008CB27CA24DA00640589 /* MyOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0008CA27CA24DA00640589 /* MyOrderVC.swift */; };
+		AC0008D127CA260E00640589 /* MyorderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0008CF27CA260E00640589 /* MyorderListCell.swift */; };
+		AC0008D227CA260E00640589 /* MyorderListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0008D027CA260E00640589 /* MyorderListCell.xib */; };
+		AC98F0E127C8F69D0074B2DD /* FoodDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98F0E027C8F69D0074B2DD /* FoodDetailVC.swift */; };
 		ACC4491027C89D770061C5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4490F27C89D770061C5D7 /* AppDelegate.swift */; };
 		ACC4491227C89D770061C5D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4491127C89D770061C5D7 /* SceneDelegate.swift */; };
 		ACC4491427C89D770061C5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4491327C89D770061C5D7 /* ViewController.swift */; };
@@ -16,6 +20,9 @@
 		ACC4491F27C89D770061C5D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4491D27C89D770061C5D7 /* LaunchScreen.storyboard */; };
 		ACC4492A27C89D780061C5D7 /* RestaurantCartDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4492927C89D780061C5D7 /* RestaurantCartDemoAppTests.swift */; };
 		ACC4493527C89D780061C5D7 /* RestaurantCartDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4493427C89D780061C5D7 /* RestaurantCartDemoAppUITests.swift */; };
+		ACC4494827C89EDE0061C5D7 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4494627C89EDE0061C5D7 /* FoodCell.swift */; };
+		ACC4494927C89EDE0061C5D7 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC4494727C89EDE0061C5D7 /* FoodCell.xib */; };
+		ACC4494F27C8AA460061C5D7 /* curveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4494E27C8AA460061C5D7 /* curveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0008CA27CA24DA00640589 /* MyOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderVC.swift; sourceTree = "<group>"; };
+		AC0008CF27CA260E00640589 /* MyorderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyorderListCell.swift; sourceTree = "<group>"; };
+		AC0008D027CA260E00640589 /* MyorderListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyorderListCell.xib; sourceTree = "<group>"; };
+		AC98F0E027C8F69D0074B2DD /* FoodDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailVC.swift; sourceTree = "<group>"; };
 		ACC4490C27C89D770061C5D7 /* RestaurantCartDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantCartDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC4490F27C89D770061C5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC4491127C89D770061C5D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,9 @@
 		ACC4493027C89D780061C5D7 /* RestaurantCartDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantCartDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC4493427C89D780061C5D7 /* RestaurantCartDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCartDemoAppUITests.swift; sourceTree = "<group>"; };
 		ACC4493627C89D780061C5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC4494627C89EDE0061C5D7 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		ACC4494727C89EDE0061C5D7 /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		ACC4494E27C8AA460061C5D7 /* curveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC98F0DF27C8F66B0074B2DD /* FoodDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				AC98F0E027C8F69D0074B2DD /* FoodDetailVC.swift */,
+				AC0008CA27CA24DA00640589 /* MyOrderVC.swift */,
+			);
+			path = FoodDetailView;
+			sourceTree = "<group>";
+		};
 		ACC4490327C89D770061C5D7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +124,9 @@
 		ACC4490E27C89D770061C5D7 /* RestaurantCartDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC98F0DF27C8F66B0074B2DD /* FoodDetailView */,
+				ACC4494D27C8A9E40061C5D7 /* Extension */,
+				ACC4494527C89EB50061C5D7 /* FoodCell */,
 				ACC4490F27C89D770061C5D7 /* AppDelegate.swift */,
 				ACC4491127C89D770061C5D7 /* SceneDelegate.swift */,
 				ACC4491327C89D770061C5D7 /* ViewController.swift */,
@@ -129,6 +155,25 @@
 				ACC4493627C89D780061C5D7 /* Info.plist */,
 			);
 			path = RestaurantCartDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		ACC4494527C89EB50061C5D7 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4494627C89EDE0061C5D7 /* FoodCell.swift */,
+				ACC4494727C89EDE0061C5D7 /* FoodCell.xib */,
+				AC0008CF27CA260E00640589 /* MyorderListCell.swift */,
+				AC0008D027CA260E00640589 /* MyorderListCell.xib */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		ACC4494D27C8A9E40061C5D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4494E27C8AA460061C5D7 /* curveView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0008D227CA260E00640589 /* MyorderListCell.xib in Resources */,
 				ACC4491F27C89D770061C5D7 /* LaunchScreen.storyboard in Resources */,
+				ACC4494927C89EDE0061C5D7 /* FoodCell.xib in Resources */,
 				ACC4491C27C89D770061C5D7 /* Assets.xcassets in Resources */,
 				ACC4491727C89D770061C5D7 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC4494F27C8AA460061C5D7 /* curveView.swift in Sources */,
 				ACC4491427C89D770061C5D7 /* ViewController.swift in Sources */,
 				ACC4491027C89D770061C5D7 /* AppDelegate.swift in Sources */,
+				ACC4494827C89EDE0061C5D7 /* FoodCell.swift in Sources */,
 				ACC4491227C89D770061C5D7 /* SceneDelegate.swift in Sources */,
+				AC0008CB27CA24DA00640589 /* MyOrderVC.swift in Sources */,
 				ACC4491A27C89D770061C5D7 /* RestaurantCartDemoApp.xcdatamodeld in Sources */,
+				AC98F0E127C8F69D0074B2DD /* FoodDetailVC.swift in Sources */,
+				AC0008D127CA260E00640589 /* MyorderListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
